@@ -1,0 +1,25 @@
+{
+  "name": "kdeploy",
+  "version": "0.8.5",
+  "description": "A simple tool to automate KaiOS device deployment",
+  "bin": {
+    "kdeploy": "./main.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "url": "https://github.com/jackesdavid/kdeploy"
+  },
+  "author": "Jackes David",
+  "license": "MIT",
+  "dependencies": {
+    "b2g-cli-tool": "https://github.com/fabricedesre/b2gclitool.git",
+    "chalk": "2.4.1",
+    "commander": "^3.0.0",
+    "resolve-global": "0.1.0"
+  }
+}
